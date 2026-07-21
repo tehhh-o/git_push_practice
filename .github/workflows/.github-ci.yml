@@ -19,5 +19,8 @@ jobs:
       - name: Running additonal verification
         run: echo "Running additonal verification..."
 
+      - name: This will not execute
+        run: randomComment
+
       - name: Build success
         run: echo "Project is building successfully!"
