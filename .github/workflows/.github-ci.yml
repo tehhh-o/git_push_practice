@@ -16,5 +16,8 @@ jobs:
       - name: Starting build process
         run: echo "Starting build process..."
 
+      - name: Running additonal verification
+        run: echo "Running additonal verification..."
+
       - name: Build success
         run: echo "Project is building successfully!"
