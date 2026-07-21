@@ -8,6 +8,17 @@ on:
     branches:
       - master
 
+env:
+  APP_ENV: "development"
+
+jobs:
+  build_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Show environment
+        run: echo "Environment is $APP_ENV"
+
 jobs:
   compile_app:
     runs-on: ubuntu-latest
